@@ -544,3 +544,129 @@ a:hover {
 }
 
 
+/* =======================I add this section for media query ============= */
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .task-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  h3 {
+    font-size: 2.3rem;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 95%;
+    padding: 0 15px;
+  }
+
+  .task-container {
+    width: 90%;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .task-form {
+    flex-direction: column;
+  }
+
+  .task-form input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .task-form button {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 9px;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .task-container {
+    width: 95%;
+    padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .task {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .task-icons {
+    font-size: 1.4rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
